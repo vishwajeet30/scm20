@@ -16,6 +16,8 @@ public class SecurityConfig {
     private SecurityCustomUserDetailService userDetailService;
     //DaoAuthenticationProvider to register user
     //has methods using which we can register our service
+    //hello
+    //world
     @Bean
     public AuthenticationProvider authenticationProvider(){
         DaoAuthenticationProvider daoAuthenticationProvider = new DaoAuthenticationProvider();  
